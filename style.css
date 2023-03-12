@@ -1,3 +1,140 @@
+/* Global styles */
+
 body {
-    background: blue;
-  }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    }
+    
+    header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: underline;
+    }
+    
+    .hero {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+    }
+    
+    .cta {
+    background-color: black;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    }
+    
+    .cta input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    }
+    
+    .cta button {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    }
+    
+    .featured {
+    background-color: #f2f2f2;
+    padding: 50px;
+    }
+    
+    .featured ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .featured li {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .featured li:last-child {
+    margin-right: 0;
+    }
+    
+    .featured img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+    
+    .featured h3 {
+    margin: 20px;
+    font-size: 24px;
+    }
+    
+    .featured p {
+    margin: 20px;
+    font-size: 16px;
+    }
+    
+    .featured a {
+    display: block;
+    background-color: purple;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+    }
+    
+    .featured a:hover {
+    background-color: #444;
+    }
+    
+    footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    /* Media queries */
+    
+    @media screen and (max-width: 768px) {
+    header {
+    padding: 10px;
+    }
+    
+    nav li {
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    .featured li {
+    width: 100%;
+    margin-right: 0;
+    }
+    }
